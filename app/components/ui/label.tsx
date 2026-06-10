@@ -1,3 +1,2 @@
-// Re-export from correct location
-export { Label } from "../../_components/ui/label";
-// This duplicate folder should be deleted but we're keeping it as a placeholder
+export { Label, labelVariants } from "../../_components/ui/label";
+export type { LabelProps } from "../../_components/ui/label";
