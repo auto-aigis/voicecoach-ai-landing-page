@@ -4,9 +4,9 @@ export const dynamic = "force-dynamic";
 
 import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Switch } from "@/components/ui/switch";
+import { Button } from "../../components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../../components/ui/card";
+import { Switch } from "../../components/ui/switch";
 import { useAuth } from "@/app/_components/AuthProvider";
 import { paymentsApi, authApi } from "@/app/_lib/api";
 import type { Tier, BillingInterval } from "@/app/_lib/types";
