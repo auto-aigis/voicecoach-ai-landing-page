@@ -1,2 +1,2 @@
-// Re-export from correct location
-export { Button, buttonVariants, type ButtonProps } from "../../_components/ui/button";
+export { Button } from "../../_components/ui/button";
+export type { ButtonProps } from "../../_components/ui/button";
